@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Vinith Kumar.M | CSE Student Portfolio - Web Dev, IoT, Cyber Security</title>
+  <meta name="title" content="Vinith Kumar.M | CSE Student Portfolio - Web Dev, IoT, Cyber Security">
+  <meta name="description" content="Portfolio of Vinith Kumar.M, 3rd-year B.E. Computer Science & Engineering student. Explore projects in IoT automation, Network Architecture, Cyber Security, and Web Development.">
+  <meta name="author" content="Vinith Kumar.M">
+  <meta name="keywords" content="Vinith Kumar, CSE Student, Computer Science, Web Development, IoT, Cyber Security, Networking, Portfolio, GRAIN DRAIN, MZ News, Arduino, JavaScript, HTML5, CSS3">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+
+  <!-- Open Graph Meta Tags - Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vinithkumar.com">
+  <meta property="og:title" content="Vinith Kumar.M | CSE Student Portfolio">
+  <meta property="og:description" content="3rd-year B.E. CSE student building practical projects in IoT, Cyber Security, Networking, and Web Development. Explore my portfolio.">
+  <meta property="og:image" content="https://vinithkumar.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:site_name" content="Vinith Kumar Portfolio">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://vinithkumar.com">
+  <meta name="twitter:title" content="Vinith Kumar.M | CSE Student Portfolio">
+  <meta name="twitter:description" content="3rd-year B.E. CSE student. Explore projects in IoT, Cyber Security, Networking, and Web Development.">
+  <meta name="twitter:image" content="https://vinithkumar.com/og-image.png">
+  <meta name="twitter:creator" content="@VinithKumar">
+
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0f1e">
+  <meta name="msapplication-TileColor" content="#0ea5e9">
+
+  <!-- Favicon & App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  
+  <!-- Canonical URL -->
+  <meta name="canonical" content="https://vinithkumar.com">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body data-theme="dark">
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading Portfolio...</div>
+    </div>
+  </div>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Vinith Kumar Home">
+        <img src="Logo-Dark.png" alt="Vinith Kumar Logo" class="logo-image logo-dark">
+        <img src="Logo-Light.png" alt="Vinith Kumar Logo" class="logo-image logo-light">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-primary-sm">Contact</a>
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Hello, I'm</span>
+          </div>
+
+          <h1 class="hero-title">
+            Vinith Kumar<span class="gradient-text">.M</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Computer Science Engineering Student
+          </p>
+
+          <p class="hero-description">
+            I'm a passionate CSE student interested in Web Development,IoT and emerging technologies. I enjoy building practical projects and learning new technologies.
+          </p>
+
+          <!-- Call To Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <div class="social-icons">
+              <a href="https://github.com/Vinith14kumar" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span class="tooltip">GitHub</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/vinith-kumar14" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span class="tooltip">LinkedIn</span>
+              </a>
+
+              <a href="https://www.instagram.com/mr_vanquisher_vk/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                </svg>
+                <span class="tooltip">Instagram</span>
+              </a>
+
+              <a href="mailto:vinithmari14092006@gmail.com" class="social-btn" aria-label="Send Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="tooltip">Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual -->
+        <div class="hero-visual">
+          <!-- Professional Image Card -->
+          <div class="profile-image-card">
+            <div class="image-wrapper">
+              <img src="Full-Length Man in Casual Formalwear.png" alt="Vinith Kumar.M - Computer Science Student" class="profile-main-image">
+              <div class="image-glow"></div>
+            </div>
+            
+            <!-- Floating Stats -->
+            <div class="floating-stat stat-2">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="stat-content">
+                <div class="stat-value">Active</div>
+                <div class="stat-label">Building</div>
+              </div>
+            </div>
+
+            <div class="floating-stat stat-3">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="stat-content">
+                <div class="stat-value">3rd Year</div>
+                <div class="stat-label">B.E. CSE</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Decorative Elements -->
+          <div class="hero-decoration decoration-1"></div>
+          <div class="hero-decoration decoration-2"></div>
+          <div class="hero-decoration decoration-3"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">A brief introduction to my background, mindset, and technical journey.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative -->
+          <div class="about-narrative glass-card">
+            <h3 class="about-card-title">
+              <span class="accent-bar"></span> Hello & Welcome!
+            </h3>
+            <p class="about-text">
+              I am a 3rd-year Bachelor of Engineering student specializing in <strong>Computer Science and Engineering</strong>. I am interested in developing practical technology solutions and continuously improving my programming and problem-solving skills.
+            </p>
+            <p class="about-text">
+              My engineering journey is driven by hands-on experimentation—whether it's interfacing microcontrollers and sensors for IoT automation, simulating complex multi-node network topologies, or analyzing digital vulnerabilities to strengthen cyber defense mechanisms.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item">
+                <div class="value-icon">💡</div>
+                <div>
+                  <h4 class="value-title">Practical Problem Solving</h4>
+                  <p class="value-desc">Applying engineering principles to real-world challenges.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">🔬</div>
+                <div>
+                  <h4 class="value-title">Hands-on Learning</h4>
+                  <p class="value-desc">Bridging smart sensor systems with modern software architecture.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">🚀</div>
+                <div>
+                  <h4 class="value-title">Continuous Growth</h4>
+                  <p class="value-desc">Actively exploring Cloud, Full Stack, and Security architectures.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Profile Card -->
+          <div class="about-profile-card glass-card">
+            <div class="profile-header">
+              <div class="profile-avatar-wrap">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%230ea5e9' width='200' height='200'/%3E%3Ctext x='100' y='120' font-size='80' font-family='Inter, sans-serif' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EVK%3C/text%3E%3C/svg%3E" alt="Vinith Kumar.M Avatar" class="profile-avatar-img">
+                <span class="status-indicator" title="Student Status: Active"></span>
+              </div>
+              <div>
+                <h3 class="profile-name">Vinith Kumar.M</h3>
+                <span class="profile-badge">B.E. Computer Science</span>
+              </div>
+            </div>
+
+            <div class="profile-details-list">
+              <div class="detail-row">
+                <span class="detail-key">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                  Name
+                </span>
+                <span class="detail-val">Vinith Kumar.M</span>
+              </div>
+
+              <div class="detail-row">
+                <span class="detail-key">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                  Degree
+                </span>
+                <span class="detail-val">B.E. Computer Science & Engineering</span>
+              </div>
+
+              <div class="detail-row">
+                <span class="detail-key">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                  Year
+                </span>
+                <span class="detail-val accent-highlight">3rd Year (Junior)</span>
+              </div>
+
+              <div class="detail-row">
+                <span class="detail-key">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  College
+                </span>
+                <span class="detail-val">Mount Zion College of Engineering and Technology, Pudukkottai</span>
+              </div>
+
+              <div class="detail-row">
+                <span class="detail-key">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  Interests
+                </span>
+                <span class="interests-pills">
+                  <span class="interest-pill">Web Development</span>
+                  <span class="interest-pill">IoT</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Real skills and technologies used in practical academic and personal projects.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Web Technologies -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Web Technologies</h3>
+                <span class="category-subtitle">Frontend & UI Engineering</span>
+              </div>
+            </div>
+
+            <div class="badges-wrapper">
+              <div class="skill-badge">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-role">Markup</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-role">Styling</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-role">Interactivity</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <span class="category-subtitle">Logic & Problem Solving</span>
+              </div>
+            </div>
+
+            <div class="badges-wrapper">
+              <div class="skill-badge">
+                <span class="skill-name">C</span>
+                <span class="skill-role">Procedural</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Java</span>
+                <span class="skill-role">OOP</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Python</span>
+                <span class="skill-role">Scripting</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world implementations in Smart IoT, Network Architecture, and Cyber Defense.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: GRAIN DRAIN -->
+          <article class="project-card glass-card">
+            <!-- Project Image -->
+            <div class="project-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&auto=format&fit=crop&q=80" alt="GRAIN DRAIN - Smart Agriculture IoT Project" class="project-image" loading="lazy">
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <div class="project-icon-status">
+                  <span class="pulse-dot-sm"></span> Active
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">GRAIN DRAIN</h3>
+                <p class="project-description">
+                  A portable solar-powered smart grain drying and automation system designed to improve grain drying using temperature, humidity and moisture monitoring with automated control.
+                </p>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Arduino Uno</span>
+                  <span class="tech-tag">DHT Sensor</span>
+                  <span class="tech-tag">Moisture Sensor</span>
+                  <span class="tech-tag">Servo Motor</span>
+                  <span class="tech-tag">Solar Power</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button class="btn btn-outline-cyan open-modal-btn" data-project="grain-drain">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                  <span>View Details</span>
+                </button>
+                <a href="https://github.com/Vinith14kumar" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gray" aria-label="View GRAIN DRAIN GitHub repository">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: MZ News & Article Portal -->
+          <article class="project-card glass-card">
+            <!-- Project Image -->
+            <div class="project-image-wrapper">
+              <img src="MZ News Global Portal Showcase.png" alt="MZ News & Article - Multilingual News Portal" class="project-image" loading="lazy">
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <div class="project-icon-status">
+                  <span class="pulse-dot-sm"></span> Completed
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">MZ News & Article Portal</h3>
+                <p class="project-description">
+                  A modern, responsive multilingual news website delivering latest news, breaking updates, and in-depth articles across multiple categories with support for five languages.
+                </p>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Multilingual</span>
+                  <span class="tech-tag">Responsive</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button class="btn btn-outline-cyan open-modal-btn" data-project="mz-news">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                  <span>View Details</span>
+                </button>
+                <a href="https://github.com/Vinith14kumar" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gray" aria-label="View MZ News GitHub repository">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic qualifications and engineering discipline.</p>
+        </div>
+
+        <!-- Education Tabs -->
+        <div class="education-tabs-wrapper">
+          <div class="education-tabs">
+            <button class="edu-tab-btn active" data-tab="college">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              College
+            </button>
+            <button class="edu-tab-btn" data-tab="school">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              School
+            </button>
+          </div>
+
+          <!-- College Tab Content -->
+          <div class="edu-tab-content active" id="college-content">
+            <div class="timeline-container">
+              <div class="timeline-line"></div>
+
+              <!-- College Education -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <span class="timeline-pulse"></span>
+                </div>
+
+                <div class="timeline-content glass-card">
+                  <div class="timeline-badge-row">
+                    <span class="badge-status">Currently Enrolled</span>
+                    <span class="badge-year">3rd Year (2024 – 2028)</span>
+                  </div>
+
+                  <h3 class="timeline-degree">B.E. Computer Science and Engineering</h3>
+                  <h4 class="timeline-institution">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Mount Zion College of Engineering and Technology, Pudukkottai
+                  </h4>
+
+                  <p class="timeline-desc">
+                    Pursuing a comprehensive curriculum encompassing Data Structures, Operating Systems, Database Management Systems, Computer Networks, Software Engineering, and Cyber Security. Actively engaged in laboratory experiments, IoT prototyping, and technical project development.
+                  </p>
+
+                  <div class="timeline-key-courses">
+                    <span class="course-chip">Data Structures</span>
+                    <span class="course-chip">Computer Networks</span>
+                    <span class="course-chip">Cyber Security</span>
+                    <span class="course-chip">OOP</span>
+                    <span class="course-chip">IoT</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- School Tab Content -->
+          <div class="edu-tab-content" id="school-content">
+            <div class="timeline-container">
+              <div class="timeline-line"></div>
+
+              <!-- Higher Secondary -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <span class="timeline-pulse"></span>
+                </div>
+
+                <div class="timeline-content glass-card">
+                  <div class="timeline-badge-row">
+                    <span class="badge-status">Completed</span>
+                    <span class="badge-year">2023 – 2024</span>
+                  </div>
+
+                  <h3 class="timeline-degree">Higher Secondary (12th Grade)</h3>
+                  <h4 class="timeline-institution">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                   Kamban Karpagam Matriculation Higher Secondary School, Karaikudi
+                  </h4>
+
+                  <p class="timeline-desc">
+                    Completed Higher Secondary Education with focus on Computer Science, Mathematics, and Physics. Developed strong foundation in programming concepts and mathematical problem-solving.
+                  </p>
+
+                  <div class="timeline-key-courses">
+                    <span class="course-chip">Computer Science</span>
+                    <span class="course-chip">Mathematics</span>
+                    <span class="course-chip">Physics</span>
+                    <span class="course-chip">Chemistry</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Secondary School -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <span class="timeline-pulse"></span>
+                </div>
+
+                <div class="timeline-content glass-card">
+                  <div class="timeline-badge-row">
+                    <span class="badge-status">Completed</span>
+                    <span class="badge-year">2021 – 2022</span>
+                  </div>
+
+                  <h3 class="timeline-degree">Secondary School (10th Grade)</h3>
+                  <h4 class="timeline-institution">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Kamban Karpagam Matriculation Higher Secondary School, Karaikudi
+                  </h4>
+
+                  <p class="timeline-desc">
+                    Completed Secondary Education with strong academic performance. Built foundational skills in Science, Mathematics, and early introduction to computer basics.
+                  </p>
+
+                  <div class="timeline-key-courses">
+                    <span class="course-chip">Mathematics</span>
+                    <span class="course-chip">Science</span>
+                    <span class="course-chip">English</span>
+                    <span class="course-chip">Tamil</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">I'm always interested in learning, building projects and connecting with other developers and technology enthusiasts.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info -->
+          <div class="contact-info-panel glass-card">
+            <h3 class="contact-info-title">Reach Out Directly</h3>
+            <p class="contact-info-text">
+              Whether you want to discuss a project, collaborate on IoT or Cyber Security, or simply talk tech, feel free to reach out!
+            </p>
+
+            <div class="contact-channels">
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="channel-label">Email</span>
+                  <a href="mailto:vinithmari14092006@gmail.com" class="channel-val">vinithmari14092006@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="college-meta-box">
+              <span class="college-meta-label">Location:</span>
+              <span class="college-meta-val">Karaikudi, Tamil Nadu, India</span>
+            </div>
+
+            <!-- Embedded Map -->
+            <div class="location-map-container" id="mapContainer">
+              <iframe 
+                id="themeMap"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1589.487415488217!2d78.76963799190052!3d10.05813331191754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1791789935302!5m2!1sen!2sin" 
+                width="100%" 
+                height="200" 
+                style="border: none; border-radius: 8px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="Karaikudi Location Map">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel glass-card">
+            <h3 class="contact-form-title">Send a Message</h3>
+            
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required>
+                <span class="input-error-msg">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                <span class="input-error-msg">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+                <span class="input-error-msg">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+
+            <!-- Success Message -->
+            <div class="form-success-banner" id="formSuccessMessage" style="display: none;" role="alert">
+              <div class="success-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div>
+                <h4 class="success-title">Message Sent!</h4>
+                <p class="success-desc">Thank you for getting in touch. Vinith will reply as soon as possible.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <!-- Logo & Links -->
+        <div class="footer-left">
+          <a href="#home" class="footer-logo">
+            <img src="Logo-Dark.png" alt="Vinith Kumar Logo" class="footer-logo-image logo-dark">
+            <img src="Logo-Light.png" alt="Vinith Kumar Logo" class="footer-logo-image logo-light">
+          </a>
+          <nav class="footer-nav">
+            <a href="#about" class="footer-nav-link">About</a>
+            <a href="#skills" class="footer-nav-link">Skills</a>
+            <a href="#projects" class="footer-nav-link">Projects</a>
+            <a href="#education" class="footer-nav-link">Education</a>
+            <a href="#contact" class="footer-nav-link">Contact</a>
+          </nav>
+        </div>
+
+        <!-- Socials & Copyright -->
+        <div class="footer-right">
+          <div class="footer-socials">
+            <a href="https://github.com/Vinith14kumar" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/vinith-kumar14" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://www.instagram.com/mr_vanquisher_vk/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg>
+            </a>
+            <a href="mailto:vinithmari14092006@gmail.com" class="footer-social-icon" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+          <p class="footer-text">© <span id="currentYear">2026</span> Vinith Kumar.M | All rights reserved.</p>
+        </div>
+      </div>
+
+      <!-- Back to Top -->
+      <a href="#home" class="back-to-top-btn" aria-label="Back to top" title="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT MODAL ==================== -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog glass-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-category" id="modalCategory">Category</span>
+          <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Content injected dynamically -->
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://github.com/Vinith14kumar" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="modalGithubBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          <span>View on GitHub</span>
+        </a>
+        <button class="btn btn-secondary" id="modalCloseFooterBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

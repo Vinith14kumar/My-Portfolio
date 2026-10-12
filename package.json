@@ -1,0 +1,32 @@
+{
+  "name": "vinith-kumar-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio of Vinith Kumar.M - CSE Student, showcasing projects in IoT, Web Development, Cyber Security, and Networking",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -c-1",
+    "build": "echo 'No build required - static site'",
+    "start": "npx http-server -p 3000",
+    "lint": "echo 'Linting disabled for static portfolio'"
+  },
+  "keywords": [
+    "portfolio",
+    "cse",
+    "web-development",
+    "iot",
+    "cyber-security",
+    "networking",
+    "vinith-kumar"
+  ],
+  "author": "Vinith Kumar.M",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vinith14kumar/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vinith14kumar/portfolio/issues"
+  },
+  "homepage": "https://vinithkumar.com",
+  "devDependencies": {}
+}
