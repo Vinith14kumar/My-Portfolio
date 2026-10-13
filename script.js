@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'grain-drain': {
       title: 'GRAIN DRAIN',
       category: 'IoT / Smart Agriculture',
-      image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&auto=format&fit=crop&q=80',
+      image: 'Grain%20Drain%20Smart%20Agriculture%20Showcase.png',
       github: 'https://github.com/Vinith14kumar',
       description: 'A portable solar-powered smart grain drying and automation system designed to improve grain drying using temperature, humidity and moisture monitoring with automated control.',
       hardware: [
